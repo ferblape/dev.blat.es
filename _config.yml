@@ -1,0 +1,58 @@
+# Harmony Jekyll theme general configurations 
+
+# Base URL
+baseurl: ''
+
+# Site live URL
+url: '' #http://dev.blat.es
+
+# Harmony theme configuration. Please change accordingly.
+harmony:
+  name: dev.blat.es
+  # Little description about your site
+  description: Snippets, code and thoughts
+  # 'meta_description:' Write an awesome description for your new site here.
+  # It will appear in your document head meta (for Google search results) and 
+  # in your feed.xml site description.
+  meta_description: dev.blat.es is where I share code snippets and thoughts about development
+  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
+  author: # Author details
+    name: Fernando Blat
+    email: ferblape@gmail.com
+    url: http://dev.blat.es
+
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key: 
+
+  # Profile links, leave blank to ignore
+  social: 
+    github: ferblape
+    twitter: ferblape
+    facebook: 
+    gplus: 
+    dribble: 
+    pinterest: 
+  # Toggle disclaimer in footer
+  show_disclaimer: true
+
+# Conversion / Build settings 
+markdown:    kramdown
+# This is how you put pygments config in jekyll 2.0 instead of pygments: true
+highlighter: pygments 
+
+# Permalinks
+permalink:        pretty
+
+exclude: 
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
+
+# Sass conversion configs
+sass:
+    sass_dir: assets/css/_sass
+    style: :compressed
