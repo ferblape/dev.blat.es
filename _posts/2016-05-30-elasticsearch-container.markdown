@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating a Docker container for ElasticSearch
-date: 2016-05-11 12:10:00
+date: 2016-05-30 12:10:00
 description: How to setup and configure a data container for ElasticSearch
 categories:
 - blog
